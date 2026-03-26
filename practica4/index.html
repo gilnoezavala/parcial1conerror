@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios - Noe Zavala - 601</title>
+</head>
+<body>
+
+	<h1>Formularios</h1>
+	<h2>Por: Noé Zavala 601</h2>
+
+	<p>Los formularios son campos que permiten capturar información por parte del usuario que permitirá a nuestro sitio interactuar.</p>
+	<hr>
+	<h3>Este es un ejemplo de formulario:</h3>
+
+	<form>
+		<label>Nombre:</label>
+		<input type="text" name="nombre" maxlength="100" placeholder="Nombre Completo" required>
+
+		<br>
+		<label>Correo Electrónico:</label>
+		<input type="email" name="correo" placeholder="Escribe correo" required>
+
+		<br>
+
+		<label>Contraseña:</label>
+		<input type="password" name="pass" placeholder="Mínimo 8 carácteres" minlength="8" required>
+		<br>
+		<label>Fecha de nacimiento:</label>
+		<input type="date" name="fecha" required>
+
+		<br>
+		<label>Nacionalidad</label>
+		<select>
+			<option selected disabled>Selecciona un País</option>
+			<option>México</option>
+			<option>Estados Unidos</option>
+			<option>España</option>
+			<option>China</option>
+			<option>Hong Kong</option>
+			<option>Rusia</option>
+			<option>Japón</option>
+			<option>Peru</option>
+			<option>Argentina</option>
+			<option>Brasil</option>
+		</select>
+
+		<br>
+		<label>Escoge tus pasatiempos</label><br>
+
+		<input type="checkbox" name="pasatiempos"> Leer <br>
+
+		<input type="checkbox" name="pasatiempos"> Escuchar Musica <br>
+
+		<input type="checkbox" name="pasatiempos"> Dibujar <br>
+
+		<input type="checkbox" name="pasatiempos"> Cantar <br>
+
+		<input type="checkbox" name="pasatiempos"> Practicar Deporte <br>
+
+		<input type="checkbox" name="pasatiempos"> Pintar <br>
+
+		<input type="checkbox" name="pasatiempos"> Cocinar <br>
+
+		<br>
+
+		<label>Género:</label>
+		<input type="radio" name="sexo"> Hombre
+		<input type="radio" name="sexo"> Mujer
+		<input type="radio" name="sexo"> Prefiero No decirlo
+
+
+		<br>
+		<label>Sube tu fotografía</label>
+		<input type="file" name="archivo" required>
+		<br>
+
+		<label>Escribe tu mensaje:</label> 
+		<br>
+		<textarea placeholder="Deja tu mensaje"></textarea>
+
+
+
+		<br>
+		<br>
+		<input type="submit" name="boton" value="Contacta al 601">
+
+		<input type="reset" name="borrar" value="Borrar campos">
+
+		<br>
+
+
+
+	</form>
+
+	
+<hr>
+
+<a href="../index.html">Volver</a>
+
+</body>
+</html>
